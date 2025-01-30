@@ -1,0 +1,105 @@
+
+
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f2; /* Fondo claro tipo arena */
+    color: #5c3706;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menú de navegación */
+.navbar {
+    background-color: #3b2400; /* Verde oscuro */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #ad490f; /* Verde oliva oscuro */
+    border-radius: 5px;
+}
+
+/* Carrusel */
+.carousel-item img {
+    object-fit: cover;
+    height: 400px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* Cambia los íconos a blanco */
+}
+
+/* Tarjetas */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #343535; /* Verde oscuro */
+}
+
+.card-text {
+    color: #555;
+}
+
+/* Formulario */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    font-weight: bold;
+    color: #2f4f4f; /* Verde oscuro */
+}
+
+form button {
+    background-color: #6b4a2f; /* Verde oliva */
+    color: #fff;
+    border: none;
+}
+
+form button:hover {
+    background-color: #2f4f4f; /* Verde oscuro */
+}
+
+/* Galería */
+h1 {
+    color: #2f4f4f;
+    font-weight: bold;
+}
+
+.row img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #2f4f4f;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Botones del carrusel */
+.carousel-indicators [data-bs-target] {
+    background-color: #693902; /* Verde oscuro */
+}

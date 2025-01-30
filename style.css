@@ -1,0 +1,35 @@
+body {
+    background-color: hsl(29, 100%, 9%);
+    color: white;
+}
+
+span {
+    font-weight: 800;
+}
+
+.navbar {
+    background-color: hsl(41, 62%, 33%) !important;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: hsl(20, 100%, 5%);
+}
+
+.card-text {
+    color: #555;
+}
+
+.container img {
+    padding-right: 10px;
+
+}
